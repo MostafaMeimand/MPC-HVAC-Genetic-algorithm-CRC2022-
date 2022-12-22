@@ -1,0 +1,10 @@
+PythonPlugin:SearchPaths,
+    SF+elecres+slab+IECC_2018,  !- Name
+    Yes,                     !- Add Current Working Directory to Search Path
+    Yes,                     !- Add Input File Directory to Search Path
+    G:\Shared drives\_Research Repository - Mostafa Ebrahimi Meimand\Working Papers\++MPC for a building\Building Model\E+Validation,  !- Search Path 1
+    PythonPlugin:Instance,   !- Search Path 2
+    Heating Setpoint Override,  !- Search Path 3
+    Yes,                     !- Search Path 4
+    SF+elecres+slab+IECC_2018,  !- Search Path 5
+    HeatingSetPoint;         !- Search Path 6

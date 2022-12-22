@@ -1,0 +1,70 @@
+Program Version,GroundTempCalc - Slab, Version .75
+   ** Warning **  Slab thickness [0.100 m] reset to 0.123 m  for computational stability.
+   ************* GroundTempCalc:Slab Completed Successfully-- 1 Warning; 0 Severe Errors; Elapsed Time=00hr 00min 18sec
+  Processing Data Dictionary (SlabGHT.idd) File -- Complete
+  Maximum number of Alpha Args=           3
+  Maximum number of Numeric Args=          40
+  Number of Object Definitions=          13
+  Number of Section Definitions=           0
+  Processing Input Data File (GHTIn.idf) -- Start
+      1 
+      2 Materials,
+      3   2,
+      4   0.16,
+      5   0.4,
+      6   0.9,
+      7   0.9,
+      8   0.75,
+      9   0.05,
+     10   6,
+     11   9;
+     12 
+     13 MatlProps,
+     14   2300,
+     15   1200,
+     16   650,
+     17   1200,
+     18   0.9,
+     19   1;
+     20 
+     21 BoundConds,
+     22   FALSE,
+     23   TRUE,
+     24   10,
+     25   FALSE,
+     26   ;
+     27 
+     28 BldgProps,
+     29   10,
+     30   0,
+     31   4,
+     32   22.22,
+     33   22.22,
+     34   22.22,
+     35   22.22,
+     36   22.22,
+     37   23.88,
+     38   23.88,
+     39   23.88,
+     40   23.88,
+     41   22.22,
+     42   22.22,
+     43   22.22,
+     44   0,
+     45   0.1;
+     46 
+     47 Insulation,
+     48   0,
+     49   0,
+     50   0,
+     51   1.5,
+     52   0;
+     53 
+     54 EquivalentSlab,
+     55   2.59947574997227,
+     56   0.1,
+     57   15,
+     58   15;
+  Processing Input Data File (GHTIn.idf) -- Complete
+  Number of IDF "Lines"=           6
+
